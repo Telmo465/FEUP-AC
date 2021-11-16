@@ -26,7 +26,7 @@ Each account has both static characteristics (e.g. date of creation, address of 
  
  
 
-# Relation account
+# Relation account (account)
 
 | item        	| meaning	                            | remark             |
 | ------------- | ------------------------------------- | ------------------ |
@@ -36,7 +36,7 @@ Each account has both static characteristics (e.g. date of creation, address of 
 | frequency	    | frequency of issuance of statements	| 
      
 
-# Relation client
+# Relation client (client)
  
 
 | item	        | meaning               |	remark                                        |
@@ -46,7 +46,7 @@ Each account has both static characteristics (e.g. date of creation, address of 
 | district_id	| address of the client	|                                                 |
      
 
-# Relation disposition
+# Relation disposition (disp)
 
 | item       | meaning                          | remark                                                   |
 | ---------- | -------------------------------- | -------------------------------------------------------- |
@@ -68,7 +68,7 @@ Each account has both static characteristics (e.g. date of creation, address of 
 | K_symbol   | characterization of the payment  |	                                   |
      
 
-# Relation Transaction
+# Relation Transaction (trans_test/train)
  
 
 | item	     | meaning                             | remark
@@ -85,7 +85,7 @@ Each account has both static characteristics (e.g. date of creation, address of 
 | account	 | account of the partner	           |                                      |
      
 
-# Relation Loan
+# Relation Loan (loan_test/train)
 
 | item	     | meaning	                      | remark                                   |
 | ---------- | ------------------------------ | ---------------------------------------- |
@@ -98,7 +98,7 @@ Each account has both static characteristics (e.g. date of creation, address of 
 | status     | status of paying off the loan  | 'A' stands for contract finished, no problems, 'B' stands for contract finished, loan not payed, 'C' stands for running contract, OK so far, 'D' stands for running contract, client in debt |
      
 
-# Relation Credit card
+# Relation Credit card (card_test/train)
 
 | item    |	meaning	                  | remark                                          |
 | ------- | ------------------------- | ----------------------------------------------- |
@@ -108,7 +108,7 @@ Each account has both static characteristics (e.g. date of creation, address of 
 | issued  | issue date	              | in the form YYMMDD                              |
      
 
-# Relation Demographic data
+# Relation Demographic data (disctrict)
 
 | item	           | meaning	                                      | remark |
 | ---------------- | ------------------------------------------------ | ------ |
