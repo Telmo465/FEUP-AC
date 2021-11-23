@@ -128,3 +128,41 @@ Each account has both static characteristics (e.g. date of creation, address of 
 | A14	           | no. of enterpreneurs per 1000 inhabitants	      |	       |
 | A15	           | no. of commited crimes '95	                      |	       |
 | A16	           | no. of commited crimes '96	                      |	       |
+---
+
+# Business goal
+
+1. Predict if a loan is going to be paid by the client.
+2. Predict what loans are more or less risky/beneficial for the bank
+3. Group client clusters/types based on their attributes, which can be a helpful tool for future strategies and predictions
+
+
+# Data mining goal
+1. Make correct predictions about the status goal of the client (if they will or not pay the 
+loan) using the data from past economic cycles.
+2. Determine patterns, relations and behaviors of attributes within the dataset provided
+3. Determine what attributes are relevant to group clients by, and create clusters based on 
+them that accurately represent probable results from the client base
+
+## The following data is calculated from the loans table joinned with others:
+
+Quantidade de status para cada tipo(1 e -1):
+![Image](./graphs/SimpleCountStatus.png)
+Media da quantidade de loan por tipo de cartão:
+![Image](./graphs/AverageLoanAmountByCardType.png)
+Media da quantidade de loan por distrito (são muitos distristos portanto os nomes não aparecem todos):
+![Image](./graphs/AverageLoanAmountByDistrict.png)
+Media da quantidade de loan por status (1 e -1):
+![Image](./graphs/AverageLoanAmountByStatus.png)
+Media do "Salario medio" por status (1 e -1):
+![Image](./graphs/AverageSalaryByStatus.png)
+Media do quantidada final que fica no banco (relation transaction-> balance) por status (1 e -1):
+![Image](./graphs/AverageBalanceByStatus.png)
+Quantidade de account frequency:
+![Image](./graphs/AccountFrequency.png)
+Quantidade de account frequency por status:
+![Image](./graphs/AccountFrequencyByStatus.png)
+Media da quantidade de pagamentos por status:
+![Image](./graphs/AverageLoanPaymentsByStatus.png)
+Grafico de correlação de todos os dados
+![Image](./estatisticas/matriz_correlacao.png)
